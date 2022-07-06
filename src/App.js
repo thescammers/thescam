@@ -70,13 +70,13 @@ function App() {
           <div className={`${start ? 'h-10 md:h-16' : 'h-24 md:h-40'} transition-all duration-1000 bg-black text-white flex justify-center items-center space-x-5 md:space-x-16`}>
             
             <div className="w-8 h-8 hover:rotate-12 duration-500 cursor-pointer md:w-14 md:h-14">
-              <img className="object-fill" src={ETHscan} />
+              <img alt="eth" className="object-fill" src={ETHscan} />
             </div>
             <div className="w-7 h-7 hover:rotate-12 duration-500 cursor-pointer md:w-12 md:h-12">
-              <img className="object-fill" src={Twit} />
+              <img alt="twit" className="object-fill" src={Twit} />
             </div>
             <div className="w-8 h-8 hover:rotate-12 duration-500 cursor-pointer md:w-14 md:h-14">
-              <img className="object-fill" src={opensea} />
+              <img alt="opensea" className="object-fill" src={opensea} />
             </div>
           </div>
 

@@ -37,7 +37,7 @@ function Contents(props) {
       
       
           <div id="ques" onClick={() => { props.setMusicplay(!props.musicplay); setStop(!stop) }} className={`h-28 w-28 mb-3 cursor-pointer transition-opacity duration-500 ease-in ${count300 > 2 ? 'opacity-100' : 'opacity-0'}`}>
-            <img className="object-fill" src={stop? `/image/0.PNG` : `/image/${count % 33 + 1}.PNG`} />
+            <img alt="logo" className="object-fill" src={stop? `/image/0.PNG` : `/image/${count % 33 + 1}.PNG`} />
           </div>
 
 
